@@ -17,7 +17,7 @@
 
 
 
-2. 搜索百度热搜榜（https://top.baidu.com/board?platform=wise）将前20个热搜词条以词云方式进行展示（热搜排名可以做为字体大小的权重，注意顺序）
+2. 搜索百度热搜榜 https://top.baidu.com/board?platform=wise , 将前20个热搜词条以词云方式进行展示（热搜排名可以做为字体大小的权重，注意顺序）
 
 
 
