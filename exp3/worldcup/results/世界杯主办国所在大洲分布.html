@@ -7,11 +7,11 @@
 
 </head>
 <body >
-    <div id="c25ec135a9f94e6196115837aa6219d2" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="10997f7aff7143348d217127aa83ef73" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_c25ec135a9f94e6196115837aa6219d2 = echarts.init(
-            document.getElementById('c25ec135a9f94e6196115837aa6219d2'), 'white', {renderer: 'canvas'});
-        var option_c25ec135a9f94e6196115837aa6219d2 = {
+        var chart_10997f7aff7143348d217127aa83ef73 = echarts.init(
+            document.getElementById('10997f7aff7143348d217127aa83ef73'), 'white', {renderer: 'canvas'});
+        var option_10997f7aff7143348d217127aa83ef73 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -63,11 +63,19 @@
             "data": [
                 {
                     "name": "Europe",
-                    "value": 12
+                    "value": 11
                 },
                 {
                     "name": "America",
-                    "value": 9
+                    "value": 8
+                },
+                {
+                    "name": "Asia",
+                    "value": 1
+                },
+                {
+                    "name": "Africa",
+                    "value": 1
                 }
             ],
             "radius": [
@@ -81,7 +89,7 @@
             "label": {
                 "show": true,
                 "margin": 8,
-                "formatter": "{b}: {c}"
+                "formatter": "{b}: {c} ({d}%)"
             },
             "labelLine": {
                 "show": true,
@@ -104,7 +112,9 @@
         {
             "data": [
                 "Europe",
-                "America"
+                "America",
+                "Asia",
+                "Africa"
             ],
             "selected": {},
             "show": true,
@@ -154,7 +164,7 @@
     "title": [
         {
             "show": true,
-            "text": "\u4e16\u754c\u676f\u51a0\u519b\u5927\u6d32\u5206\u5e03",
+            "text": "\u4e16\u754c\u676f\u4e3b\u529e\u56fd\u6240\u5728\u5927\u6d32\u5206\u5e03",
             "target": "blank",
             "subtarget": "blank",
             "padding": 5,
@@ -165,7 +175,7 @@
         }
     ]
 };
-        chart_c25ec135a9f94e6196115837aa6219d2.setOption(option_c25ec135a9f94e6196115837aa6219d2);
+        chart_10997f7aff7143348d217127aa83ef73.setOption(option_10997f7aff7143348d217127aa83ef73);
     </script>
 </body>
 </html>
